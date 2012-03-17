@@ -1,0 +1,6 @@
+0. Open two terminal windows
+1. From the first terminal, run these commands:
+    $ chmod a+x server.pl;perl server.pl 1234;
+2. From the second terminal, run these commands:
+    $ chmod a+x client.pl;perl client.pl localhost 1234
+3. From the second terminal window (client) try to type any word(s) and press enter. You should see the result transmitted to terminal window #1 (server).
